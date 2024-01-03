@@ -1,0 +1,16 @@
+CREATE DATABASE PHASE3ENDPROJ2
+USE PHASE3ENDPROJ2
+
+CREATE TABLE GamingLaptop (
+    Id INT PRIMARY KEY,
+    Name NVARCHAR(100),
+    Description NVARCHAR(MAX),
+    Price FLOAT
+)
+
+CREATE TABLE StudentLaptop (
+    Id INT PRIMARY KEY,
+    Name NVARCHAR(100),
+    Description NVARCHAR(MAX),
+    Price FLOAT
+)
